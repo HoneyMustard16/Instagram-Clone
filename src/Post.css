@@ -1,0 +1,41 @@
+.post__card {
+  max-width: 100%;
+  width: 545px;
+  height: auto;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column !important;
+  border: 1px solid lightgrey;
+}
+
+.post__avatar {
+  background-color: rgba(105, 103, 103, 0.685) !important;
+}
+
+.post__image {
+  width: 100%;
+  height: 0;
+  object-fit: contain;
+  padding-top: 56.25%; /* 16:9; */
+}
+
+.post__comments{
+  margin-top: 2em !important;
+}
+
+.post__inputBox {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  border-top: 1px solid lightgrey;
+}
+
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+}
+
+.post__inputButton {
+  flex: 0;
+}
